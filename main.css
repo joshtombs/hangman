@@ -1,0 +1,43 @@
+body{
+  background-color: #5CCCCC;
+  margin: 0;
+}
+
+.page-container{
+  background-color: #009999;
+  width: 80%;
+  max-width: 950px;
+  min-width: 850px;
+  margin: 0 auto;
+  display: table;
+}
+
+.head{
+  background-color: #006363;
+  color: #FFFFFF;
+}
+
+.restart{
+  font-family: "Helvetica";
+  font-weight: bold;
+  padding: 9px;
+  display:inline-block;
+}
+
+.top-spaced{
+  margin-top: 50px;
+}
+
+.hang-body{
+  border: 1px solid black;
+  height: 400px;
+  width: 18%;
+  float: left;
+}
+
+.game-container{
+  border: 1px solid black;
+  height: 400px;
+  width: 79%;
+  float: right;
+}
