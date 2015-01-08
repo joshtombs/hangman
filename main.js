@@ -136,5 +136,6 @@ function playerWins(){
 };
 
 function endGame(){
+  $(".characters").html(app.generatedWord);
   $(".letters").html("You Lose!");
 };
