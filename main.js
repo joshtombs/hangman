@@ -118,7 +118,6 @@ function RandomWordComplete(data) {
 };
 
 function SetupGame(){
-  console.log("\""+app.generatedWord+"\"");
   var inside = "";
   var width = 100 / app.generatedWord.length;
   for(var i = 0; i < app.generatedWord.length; i++){
