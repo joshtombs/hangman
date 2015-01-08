@@ -33,20 +33,74 @@ body{
   display:inline-block;
 }
 
+.restart:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+
 .top-spaced{
   margin-top: 50px;
 }
 
 .hang-body{
-  border: 1px solid black;
   height: 400px;
-  width: 18%;
+  width: 28%;
   float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .game-container{
-  border: 1px solid black;
   height: 400px;
-  width: 79%;
+  width: 69%;
   float: right;
+}
+
+.characters{
+  height: 40%;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.full{
+  height: 100%;
+  width: 100%;
+}
+
+.letters{
+  height: 60%;
+  font-size: 38px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.letter{
+  height: 33%;
+  width: 10%;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.selected{
+  background-color: #5CCCCC;
+}
+
+.unselected{
+  background-color: #006363;
+}
+
+.placeholder{
+  height: 33%;
+  width: 5%;
+}
+
+.footer{
+  margin-top: 50px;
+  background-color: #006363;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
 }
