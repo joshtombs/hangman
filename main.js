@@ -112,7 +112,7 @@ function RandomWord() {
 };
 
 function RandomWordComplete(data) {
-  app.generatedWord = data.Word.trim();
+  app.generatedWord = data.Word.trim().toLowerCase();
   app.lettersRemaining = app.generatedWord.length;
   SetupGame();
 };
