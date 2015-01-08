@@ -120,8 +120,9 @@ function RandomWordComplete(data) {
 function SetupGame(){
   console.log("\""+app.generatedWord+"\"");
   var inside = "";
+  var width = 100 / app.generatedWord.length;
   for(var i = 0; i < app.generatedWord.length; i++){
-    inside = inside.concat("<td>_</td>");
+    inside = inside.concat("<td width=\""+width+"%\">_</td>");
   }
   $(".characters").html(
     "<table class=\"full\"><tr>" +
